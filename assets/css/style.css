@@ -13,14 +13,18 @@
 
 .jumbotron {
     padding: 4rem;
-    background-image: url('link-to-your-image.jpg'); 
+    color: white;
+    font-weight: bold;
     background-size: cover;
     background-position: center;
-    color: white;
+    background-image: url('../images/jumbotron.jpg');
 }
 
 .jumbotron p {
+    font-weight: bold;
     font-size: 1.2rem;
 }
 
-
+.jumbotron .lead {
+    font-size: 1.5rem;
+}
